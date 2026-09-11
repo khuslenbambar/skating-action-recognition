@@ -2,9 +2,6 @@
 
 Does adding explicit skeletal pose information help a video model recognise figure skating elements? This project builds a dual-pathway deep learning system to test that question rigorously, across 18 trained models, a multi-seed stability study and five ablations.
 
-**BSc Computer Science dissertation, King's College London (2026). Awarded First Class (77).**
-Author: Khuslen Bambar. Supervisor: Dr Héctor Menéndez Benito.
-
 ## Key finding
 
 Pose enhancement does **not** produce a statistically significant aggregate improvement at any granularity. At the element level (28 classes) the pose-enhanced model gains 0.47 percentage points over the RGB baseline, against a seed-to-seed noise floor of 0.39 pp measured across three seeds. A Wilcoxon signed-rank test gives p = 0.324 and the bootstrap 95% confidence interval crosses zero.
